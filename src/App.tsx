@@ -7,7 +7,7 @@ function App() {
   return (
     <>
       <Navbar />
-      <div className="w-full max-w-7xl mt-20 relative flex-col flex items-center justify-center">
+      <div className="w-full max-w-7xl mt-4 flex-col flex items-center justify-center bg-green-400">
         <Routes>
           <Route path="/" Component={Home} />
         </Routes>
