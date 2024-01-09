@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 const NavBar = () => {
   const [open, setOpen] = useState<boolean>(false);
   return (
-    <nav className="flex items-center max-w-7xl fixed font-bold text-white md:mt-2 mt-0 md:rounded rounded-none bg-[#5355e0] top-0 z-50 bg-opacity-[98%] backdrop-blur w-full justify-between px-2 md:px-6 py-7">
+    <nav className="flex items-center max-w-7xl font-bold text-white md:mt-2 mt-0 md:rounded rounded-none bg-[#5355e0] top-0 z-50 bg-opacity-[98%] backdrop-blur w-full justify-between px-2 md:px-6 py-7">
       <Link to={"/"} className="md:text-[20px] xl font-bold">
         RELEVANT NETWORK
       </Link>
