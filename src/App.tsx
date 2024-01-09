@@ -1,5 +1,6 @@
 import "./App.css";
 import Navbar from "./component/Navbar";
+import Values from "./component/Values";
 import Home from "./pages/Home";
 
 function App() {
@@ -7,6 +8,7 @@ function App() {
     <div className="flex flex-col items-center">
       <Navbar />
       <Home />
+      <Values />
     </div>
   );
 }
