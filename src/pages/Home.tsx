@@ -8,7 +8,7 @@ const Home = () => {
           <h1 className="text-[60px] font-weight: 800 text-[#1b1212]">
             How We Help Women
           </h1>
-          <p className="text-[#101211] text-lg">
+          <p className="text-[#2c150b] text-lg">
             To support women thereby transforming generations; enabling them to
             live full lives. Through creating a platform; for them to access
             vocational skills training, business opportunities, income
