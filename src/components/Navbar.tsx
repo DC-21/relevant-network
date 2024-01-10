@@ -14,11 +14,11 @@ const NavBar = () => {
        <span style={{color:colors.orange}}>RELEVANT NETWORK</span>
       </Link>
       <li className="list-none gap-4 md:flex hidden">
-        <Link to={"/"} className=" hover:text-[#ff6600] text-gray-700">HOME</Link>
-        <Link to={"/"} className=" hover:text-[#ff6600] text-gray-700">ABOUT</Link>
-        <Link to={"/"} className=" hover:text-[#ff6600] text-gray-700">SERVICES</Link>
-        <Link to={"/"} className=" hover:text-[#ff6600] text-gray-700">BLOG</Link>
-        <Link to={"/"} className=" hover:text-[#ff6600] text-gray-700">CONTACT</Link>
+        <Link to={"/"} className=" hover:text-[#ff6600] text-gray-700 duration-200">HOME</Link>
+        <Link to={"/"} className=" hover:text-[#ff6600] text-gray-700 duration-200">ABOUT</Link>
+        <Link to={"/"} className=" hover:text-[#ff6600] text-gray-700 duration-200">SERVICES</Link>
+        <Link to={"/"} className=" hover:text-[#ff6600] text-gray-700 duration-200">BLOG</Link>
+        <Link to={"/"} className=" hover:text-[#ff6600] text-gray-700 duration-200">CONTACT</Link>
       </li>
       <button
         onClick={() => setOpen(!open)}
