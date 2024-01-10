@@ -9,9 +9,9 @@ const NavBar = () => {
     <nav
       className={`flex items-center max-w-7xl font-bold shadow-lg  md:rounded rounded-none top-0 z-50 bg-opacity-[98%] backdrop-blur w-full justify-between px-2 md:px-6 py-7`}
     >
-      <Link to={"/"} className="font-bold flex items-center gap-2">
-       <img src={logo} alt="logo" className="md:h-8 h-6 object-cover" />
-       <span style={{color:colors.orange}}>RELEVANT NETWORK</span>
+      <Link to={"/"} className="font-bold flex items-center gap-2 group">
+       <img src={logo} alt="logo" className="md:h-8 h-6 object-cover group-hover:rotate-45 duration-100" />
+       <span style={{color:colors.orange}} className=" group-hover:text-gray-600">RELEVANT NETWORK</span>
       </Link>
       <li className="list-none gap-4 md:flex hidden">
         <Link to={"/"} className=" hover:text-[#ff6600] text-gray-700 duration-200">HOME</Link>
@@ -37,7 +37,7 @@ const NavBar = () => {
       </button>
       <div
         className={`absolute origin-bottom ${
-          open ? "scale-y-100" : "scale-y-0"
+          open ? "left-0" : "-left-full"
         } md:hidden top-[101%] bg-[#5658e0] max-w-7xl delay-150 duration-300 bg-opacity-[98%] backdrop-blur-md w-full inset-x-0`}
       >
         <div className=" text-2xl flex min-h-screen flex-col h-full w-full gap-4 items-center list-none">
