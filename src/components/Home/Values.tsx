@@ -10,11 +10,11 @@ const Values = () => {
           className=" w-full object-cover object-center"
         />
       </div>
-      <div>
+      <div className=" flex flex-col items-center md:items-start gap-2 md:justify-start justify-center">
         <h1 className="text-center md:text-left text-4xl text-gray-700 font-bold">
           LEGAL STRUCTURE
         </h1>
-        <p className="md:text-xl text-lg text-gray-600">
+        <p className="md:text-xl text-lg md:text-left text-center text-gray-600">
           Relevant shall be a legally registered as a Non-Governmental
           Organization (NGO) according to the laws of Zambia.
         </p>
