@@ -14,7 +14,7 @@ const Hero = () => {
           activities allowing them to access; good quality health care, shelter,
           sanitation and education services.
         </p>
-        <div className="">
+        <div className="flex gap-4 items-center">
           <button className="">Donate Now</button>
           <button className="">Disover +</button>
         </div>
