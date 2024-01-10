@@ -24,10 +24,10 @@ const Values = () => {
           <div className=" h-1 bg-gray-400 w-8"></div>
         </div>
         <p className=" underline text-xl">Core values</p>
-        <ul className=" grid grid-cols-2 gap-4 md:text-xl text-sm w-full">
+        <ul className=" grid grid-cols-2 gap-4 md:text-xl w-full">
           <li className=" p-2 rounded-full flex items-center border shadow-sm gap-2">
             <span>
-              <svg fill="none" viewBox="0 0 24 24" height="1em" width="1em">
+              <svg color="#ff6600" viewBox="0 0 24 24" height="1em" width="1em">
                 <path fill="currentColor" d="M12 16a4 4 0 100-8 4 4 0 000 8z" />
                 <path
                   fill="currentColor"
@@ -41,7 +41,7 @@ const Values = () => {
           </li>
           <li className=" p-2 rounded-full flex items-center border shadow-sm gap-2">
             <span>
-              <svg fill="none" viewBox="0 0 24 24" height="1em" width="1em">
+              <svg color="#ff6600" viewBox="0 0 24 24" height="1em" width="1em">
                 <path fill="currentColor" d="M12 16a4 4 0 100-8 4 4 0 000 8z" />
                 <path
                   fill="currentColor"
@@ -55,7 +55,7 @@ const Values = () => {
           </li>
           <li className=" p-2 rounded-full flex items-center border shadow-sm gap-2">
             <span>
-              <svg fill="none" viewBox="0 0 24 24" height="1em" width="1em">
+              <svg color="#ff6600" viewBox="0 0 24 24" height="1em" width="1em">
                 <path fill="currentColor" d="M12 16a4 4 0 100-8 4 4 0 000 8z" />
                 <path
                   fill="currentColor"
@@ -69,7 +69,7 @@ const Values = () => {
           </li>
           <li className=" p-2 rounded-full flex items-center border shadow-sm gap-2">
             <span>
-              <svg fill="none" viewBox="0 0 24 24" height="1em" width="1em">
+              <svg color="#ff6600" viewBox="0 0 24 24" height="1em" width="1em">
                 <path fill="currentColor" d="M12 16a4 4 0 100-8 4 4 0 000 8z" />
                 <path
                   fill="currentColor"
@@ -83,7 +83,7 @@ const Values = () => {
           </li>
           <li className=" p-2 rounded-full flex items-center border shadow-sm gap-2">
             <span>
-              <svg fill="none" viewBox="0 0 24 24" height="1em" width="1em">
+              <svg color="#ff6600" viewBox="0 0 24 24" height="1em" width="1em">
                 <path fill="currentColor" d="M12 16a4 4 0 100-8 4 4 0 000 8z" />
                 <path
                   fill="currentColor"
@@ -97,7 +97,7 @@ const Values = () => {
           </li>
           <li className=" p-2 rounded-full flex items-center border shadow-sm gap-2">
             <span>
-              <svg fill="none" viewBox="0 0 24 24" height="1em" width="1em">
+              <svg color="#ff6600" viewBox="0 0 24 24" height="1em" width="1em">
                 <path fill="currentColor" d="M12 16a4 4 0 100-8 4 4 0 000 8z" />
                 <path
                   fill="currentColor"
@@ -110,7 +110,7 @@ const Values = () => {
             Sustainability
           </li>
         </ul>
-        <button className=" rounded-2xl bg-[#ff6600] hover:bg-[#ff8000] text-white hover:scale-105 active:scale-95 duration-150 p-4">
+        <button className=" rounded-2xl my-2 bg-[#ff6600] hover:bg-[#ff8000] text-white hover:scale-105 active:scale-95 duration-150 p-4">
           Join Us Now
         </button>
       </div>
