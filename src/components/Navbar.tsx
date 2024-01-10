@@ -15,10 +15,10 @@ const NavBar = () => {
       </Link>
       <li className="list-none gap-4 md:flex hidden">
         <Link to={"/"} className=" hover:text-[#ff6600] text-gray-700 duration-200">HOME</Link>
-        <Link to={"/"} className=" hover:text-[#ff6600] text-gray-700 duration-200">ABOUT</Link>
-        <Link to={"/"} className=" hover:text-[#ff6600] text-gray-700 duration-200">SERVICES</Link>
-        <Link to={"/"} className=" hover:text-[#ff6600] text-gray-700 duration-200">BLOG</Link>
-        <Link to={"/"} className=" hover:text-[#ff6600] text-gray-700 duration-200">CONTACT</Link>
+        <Link to={"/about"} className=" hover:text-[#ff6600] text-gray-700 duration-200">ABOUT</Link>
+        <Link to={"/services"} className=" hover:text-[#ff6600] text-gray-700 duration-200">SERVICES</Link>
+        <Link to={"/blog"} className=" hover:text-[#ff6600] text-gray-700 duration-200">BLOG</Link>
+        <Link to={"/services"} className=" hover:text-[#ff6600] text-gray-700 duration-200">CONTACT</Link>
       </li>
       <button
         onClick={() => setOpen(!open)}
@@ -43,7 +43,7 @@ const NavBar = () => {
         <div className=" text-2xl flex min-h-screen flex-col h-full w-full gap-4 items-center list-none">
           <div className=" text-center flex flex-col mt-20 gap-2">
             <li>
-              <Link to={"/blog"} className=" hover:text-[#ff6600] text-gray-700 duration-200">HOME</Link>
+              <Link to={"/"} className=" hover:text-[#ff6600] text-gray-700 duration-200">HOME</Link>
             </li>
             <li>
               <Link to={"/about"} className=" hover:text-[#ff6600] text-gray-700 duration-200">ABOUT</Link>
@@ -52,7 +52,7 @@ const NavBar = () => {
               <Link to={"/services"} className=" hover:text-[#ff6600] text-gray-700 duration-200">SERVICES</Link>
             </li>
             <li>
-              <Link to={"/services"} className=" hover:text-[#ff6600] text-gray-700 duration-200">BLOG</Link>
+              <Link to={"/blog"} className=" hover:text-[#ff6600] text-gray-700 duration-200">BLOG</Link>
             </li>
             <li>
               <Link to={"/services"} className=" hover:text-[#ff6600] text-gray-700 duration-200">CONTACTS</Link>
