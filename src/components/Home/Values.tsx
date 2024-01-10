@@ -26,7 +26,7 @@ const Values = () => {
         <p className=" underline text-xl">Core values</p>
         <ul>
           <li>Creativity</li>
-          <li>Empowermen</li>
+          <li>Empowerment</li>
           <li>Excellence</li>
           <li>Integrity</li>
           <li>Innovation</li>
