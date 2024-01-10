@@ -14,7 +14,7 @@ const Values = () => {
         <div className=" h-2 bg-gray-400 w-8"></div>
       </div>
       <div className="grid lg:grid-cols-5 text-sm md:text-base md:grid-cols-3 mt-4 w-full items-center justify-center gap-4">
-        <div className="flex items-center flex-col text-center justify-center p-4 border shadow-md rounded-xl hover:shadow-lg duration-200">
+        <div className="flex items-center flex-col text-center justify-center p-4 border shadow-md rounded-xl hover:shadow-xl duration-200">
           <span className=" px-4 py-2 border-[#ff6699] my-2 font-extrabold text-gray-500 rounded-full border-4">1</span>
           <p className=" text-gray-600">
             Establish a robust social enterprise in agriculture, emphasizing
@@ -22,7 +22,7 @@ const Values = () => {
             adaptation.
           </p>
         </div>
-        <div className="flex items-center flex-col text-center justify-center p-4 border shadow-md rounded-xl hover:shadow-lg duration-200">
+        <div className="flex items-center flex-col text-center justify-center p-4 border shadow-md rounded-xl hover:shadow-xl duration-200">
           <span className=" px-4 py-2 border-[#ff6699] my-2 font-extrabold text-gray-500 rounded-full border-4">2</span>
           <p className=" text-gray-600">
             Increase women's active and inclusive wealth creation participation
@@ -30,14 +30,14 @@ const Values = () => {
             development.
           </p>
         </div>
-        <div className="flex items-center flex-col text-center justify-center p-4 border shadow-md rounded-xl hover:shadow-lg duration-200">
+        <div className="flex items-center flex-col text-center justify-center p-4 border shadow-md rounded-xl hover:shadow-xl duration-200">
           <span className=" px-4 py-2 border-[#ff6699] my-2 font-extrabold text-gray-500 rounded-full border-4">3</span>
           <p className=" text-gray-600">
             Support women's education through comprehensive adult literacy,
             vocational skills training, and accessible primary education.
           </p>
         </div>
-        <div className="flex items-center flex-col text-center justify-center p-4 border shadow-md rounded-xl hover:shadow-lg duration-200">
+        <div className="flex items-center flex-col text-center justify-center p-4 border shadow-md rounded-xl hover:shadow-xl duration-200">
           <span className=" px-4 py-2 border-[#ff6699] my-2 font-extrabold text-gray-500 rounded-full border-4">4</span>
           <p className=" text-gray-600">
             Establish a robust social enterprise in agriculture, emphasizing
@@ -45,7 +45,7 @@ const Values = () => {
             adaptation.
           </p>
         </div>
-        <div className="flex items-center flex-col text-center justify-center p-4 border shadow-md rounded-xl hover:shadow-lg duration-200">
+        <div className="flex items-center flex-col text-center justify-center p-4 border shadow-md rounded-xl hover:shadow-xl duration-200">
           <span className=" px-4 py-2 border-[#ff6699] my-2 font-extrabold text-gray-500 rounded-full border-4">5</span>
           <p className=" text-gray-600">
             Promote gender equity through programs addressing social justice,
