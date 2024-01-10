@@ -5,7 +5,7 @@ const Values = () => {
         WE <span className="text-[#ff6699]">CAN</span> CHANGE THE WORLD
       </h1>
       <h2 className=" text-2xl underline">Vision</h2>
-      <p>The vision is to improve peoples&#39; lives one at time.</p>
+      <p className="md:text-xl text-lg text-gray-600">To improve peoples&#39; lives one at time.</p>
       <div className=" flex items-center justify-center gap-2 w-full my-2">
         <div className=" h-2 bg-gray-400 w-8"></div>
         <div className=" h-3 bg-[#ff6699] w-8"></div>
