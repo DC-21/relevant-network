@@ -1,6 +1,7 @@
 import { useState } from "react";
 import { Link } from "react-router-dom";
 import logo from '../assets/logo.png'
+import { colors } from "../constants/colors";
 
 const NavBar = () => {
   const [open, setOpen] = useState<boolean>(false);
@@ -10,7 +11,7 @@ const NavBar = () => {
     >
       <Link to={"/"} className="font-bold flex items-center gap-2">
        <img src={logo} alt="logo" className="md:h-8 h-6 object-cover" />
-       <span>RELEVANT NETWORK</span>
+       <span style={{color:colors.orange}}>RELEVANT NETWORK</span>
       </Link>
       <li className="list-none gap-4 md:flex hidden">
         <Link to={"/"}>HOME</Link>
