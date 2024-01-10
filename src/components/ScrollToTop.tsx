@@ -34,7 +34,7 @@ const ScrollToTop: React.FC = () => {
     >
       <button
         onClick={scrollToTop}
-        className="bg-[#ff6600] hover:bg-[#ff8000] text-white font-bold p-3 shadow-xl rounded-full"
+        className="bg-[#ff6600] hover:bg-[#ff8000] text-white font-bold p-3 shadow-xl duration-300 hover:shadow-2xl rounded-full"
       >
         <svg
           fill="currentColor"
