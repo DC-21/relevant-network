@@ -2,8 +2,8 @@ import logo from "../../assets/gail.avif";
 
 const Hero = () => {
   return (
-    <section className="flex w-full max-w-7xl h-auto py-20 px-4 justify-center items-center">
-      <div className="w-full flex gap-4 justify-center items-center text-black">
+    <section className="">
+      <div className="">
         <div className="w-1/2 justify-center">
           <h1 className="text-[60px] font-weight: 800 text-[#353935]">
             How We Help Women
