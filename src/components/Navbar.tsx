@@ -7,7 +7,7 @@ const NavBar = () => {
   const [open, setOpen] = useState<boolean>(false);
   return (
     <nav
-      className={`flex items-center max-w-7xl font-bold shadow-lg  md:rounded rounded-none top-0 z-50 bg-opacity-[98%] backdrop-blur w-full justify-between px-2 md:px-6 py-7`}
+      className={`flex items-center max-w-7xl font-bold shadow-lg border-b top-0 z-50  backdrop-blur w-full justify-between px-2 md:px-6 py-7`}
     >
       <Link to={"/"} className="font-bold flex items-center gap-2 group">
        <img src={logo} alt="logo" className="md:h-8 h-6 object-cover group-hover:rotate-45 duration-100" />
@@ -38,24 +38,24 @@ const NavBar = () => {
       <div
         className={`absolute origin-bottom ${
           open ? "left-0" : "-left-full"
-        } md:hidden top-[101%] bg-[#5658e0] max-w-7xl delay-150 duration-300 bg-opacity-[98%] backdrop-blur-md w-full inset-x-0`}
+        } md:hidden top-[101%] bg-gray-200 border-t-0 max-w-7xl delay-150 duration-300 bg-opacity-[98%] backdrop-blur-md w-full inset-x-0`}
       >
         <div className=" text-2xl flex min-h-screen flex-col h-full w-full gap-4 items-center list-none">
           <div className=" text-center flex flex-col mt-20 gap-2">
             <li>
-              <Link to={"/blog"}>HOME</Link>
+              <Link to={"/blog"} className=" hover:text-[#ff6600] text-gray-700 duration-200">HOME</Link>
             </li>
             <li>
-              <Link to={"/about"}>ABOUT</Link>
+              <Link to={"/about"} className=" hover:text-[#ff6600] text-gray-700 duration-200">ABOUT</Link>
             </li>
             <li>
-              <Link to={"/services"}>SERVICES</Link>
+              <Link to={"/services"} className=" hover:text-[#ff6600] text-gray-700 duration-200">SERVICES</Link>
             </li>
             <li>
-              <Link to={"/services"}>BLOG</Link>
+              <Link to={"/services"} className=" hover:text-[#ff6600] text-gray-700 duration-200">BLOG</Link>
             </li>
             <li>
-              <Link to={"/services"}>CONTACTS</Link>
+              <Link to={"/services"} className=" hover:text-[#ff6600] text-gray-700 duration-200">CONTACTS</Link>
             </li>
           </div>
         </div>
