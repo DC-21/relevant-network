@@ -50,9 +50,8 @@ const Objectives = () => {
             4
           </span>
           <p className=" text-gray-600">
-            Establish a robust social enterprise in agriculture, emphasizing
-            high-quality crops and advanced breeding techniques for climate
-            adaptation.
+            Improve access to water and health services for women and children,
+            with a core focus on nutrition
           </p>
         </div>
         <div className="flex items-center flex-col text-center justify-center md:p-4 shadow-md rounded-xl hover:shadow-xl py-12 duration-200 bg-[#ffcc99] bg-opacity-5">
@@ -65,7 +64,10 @@ const Objectives = () => {
           </p>
         </div>
       </div>
-      <Link to={"/about"} className=" mt-8 rounded-2xl bg-[#ffcc99] hover:bg-[#ffbc78] drop-shadow-lg hover:drop-shadow-xl hover:scale-105 active:scale-95 duration-150 p-4 text-gray-900">
+      <Link
+        to={"/about"}
+        className=" mt-8 rounded-2xl bg-[#ffcc99] hover:bg-[#ffbc78] drop-shadow-lg hover:drop-shadow-xl hover:scale-105 active:scale-95 duration-150 p-4 text-gray-900"
+      >
         Read More
       </Link>
     </section>
