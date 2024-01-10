@@ -1,7 +1,7 @@
 import bg from "../../assets/her03.jpg";
 const Values = () => {
   return (
-    <div className="min-h-screen px-4 md:px-12 py-16 items-center justify-center grid md:grid-cols-2 w-full">
+    <div className="min-h-screen px-4 md:px-12 py-16 gap-4 items-center justify-center grid md:grid-cols-2 w-full">
       <div>
         <img
           src={bg}
