@@ -1,6 +1,6 @@
 const Hero = () => {
   return (
-    <section className="">
+    <header className="">
       <h1 className="">How We Help Women</h1>
       <p className="">
         To support women thereby transforming generations; enabling them to live
@@ -13,7 +13,7 @@ const Hero = () => {
         <button className="">Donate Now</button>
         <button className="">Disover +</button>
       </div>
-    </section>
+    </header>
   );
 };
 
