@@ -15,8 +15,12 @@ const Hero = () => {
           sanitation and education services.
         </p>
         <div className="flex gap-4 items-center">
-          <button className=" rounded-2xl bg-[#ffcc99] hover:bg-[#ffbc78] hover:scale-105 active:scale-95 duration-150 p-4 text-gray-700">Donate Now</button>
-          <button className=" rounded-2xl bg-[#ff6600] hover:bg-[#ff8000] hover:scale-105 active:scale-95 duration-150 p-4">Disover +</button>
+          <button className=" rounded-2xl bg-[#ffcc99] hover:bg-[#ffbc78] hover:scale-105 active:scale-95 duration-150 p-4 text-gray-700">
+            Donate Now
+          </button>
+          <button className=" rounded-2xl bg-[#ff6600] hover:bg-[#ff8000] hover:scale-105 active:scale-95 duration-150 p-4">
+            Disover +
+          </button>
         </div>
       </div>
     </header>
