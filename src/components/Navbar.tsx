@@ -27,12 +27,12 @@ const NavBar = () => {
         <div
           className={`w-8 h-[0.13rem] ${
             open ? "translate-y-[0.44rem] rotate-45" : ""
-          } bg-white duration-300 delay-150`}
+          } bg-gray-800 duration-300 delay-150`}
         ></div>
         <div
           className={`w-8 h-[0.13rem] ${
             open ? "-translate-y-[0.44rem] -rotate-45" : ""
-          } bg-white duration-300 delay-150`}
+          } bg-gray-800 duration-300 delay-150`}
         ></div>
       </button>
       <div
