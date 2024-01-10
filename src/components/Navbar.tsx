@@ -41,7 +41,7 @@ const NavBar = () => {
         } md:hidden top-[101%] bg-gray-200 border-t-0 max-w-7xl delay-150 duration-300 bg-opacity-[98%] backdrop-blur-md w-full inset-x-0`}
       >
         <div className=" text-2xl flex min-h-screen flex-col h-full w-full gap-4 items-center list-none">
-          <div className=" text-center flex flex-col mt-20 gap-2">
+          <ul className=" text-center flex flex-col mt-20 gap-2">
             <li>
               <Link to={"/"} className=" hover:text-[#ff6600] text-gray-700 duration-200">HOME</Link>
             </li>
@@ -57,7 +57,7 @@ const NavBar = () => {
             <li>
               <Link to={"/services"} className=" hover:text-[#ff6600] text-gray-700 duration-200">CONTACTS</Link>
             </li>
-          </div>
+          </ul>
         </div>
       </div>
     </nav>
