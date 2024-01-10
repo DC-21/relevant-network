@@ -3,7 +3,7 @@ import logo from "../assets/logo.png";
 
 const Footer = () => {
   return (
-    <footer className=" flex flex-col w-full px-4 md:px-12 py-16">
+    <footer className=" flex flex-col w-full px-4 md:px-12 py-12">
       <div className=" flex md:flex-row gap-8 justify-between flex-col items-center">
         <Link to={"/"} className="flex gap-2">
           <img src={logo} loading="lazy" alt="logo" className=" h-12" />
@@ -95,8 +95,8 @@ const Footer = () => {
           </li>
         </ul>
       </div>
-      <div className=" border-t w-full mt-4">
-
+      <div className=" border-t w-full mt-4 flex pt-10 items-center justify-center">
+        <span>©Copyright 2024-Relevant Network</span>
       </div>
     </footer>
   );
