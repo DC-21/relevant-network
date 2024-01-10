@@ -1,8 +1,12 @@
 import Hero from "../components/Home/Hero";
+import Values from "../components/Home/Values";
 
 const Home = () => {
   return (
-    <Hero/>
+    <>
+      <Hero />
+      <Values />
+    </>
   );
 };
 
