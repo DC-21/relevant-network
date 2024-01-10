@@ -5,8 +5,12 @@ const Footer = () => {
   return (
     <footer className=" flex flex-col w-full px-4 md:px-12 py-16">
       <div className=" flex md:flex-row justify-between flex-col items-center">
-        <Link to={"/"}>
+        <Link to={"/"} className="flex gap-2">
           <img src={logo} loading="lazy" alt="logo" className=" h-12" />
+          <div className=" flex flex-col">
+            <span className=" font-bold">RELEVANT NETWORK</span>
+            <span className=" text-sm text-gray-500">Supporting the women</span>
+          </div>
         </Link>
         <ul className=" text-center flex flex-col md:flex-row items-center gap-4">
           <li>
