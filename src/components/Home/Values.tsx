@@ -45,7 +45,7 @@ const Values = () => {
             adaptation.
           </p>
         </div>
-        <div className="flex items-center text-center justify-center p-4 border shadow-md">
+        <div className="flex items-center flex-col text-center justify-center p-4 border shadow-md">
           <span>5</span>
           <p>
             Promote gender equity through programs addressing social justice,
