@@ -65,7 +65,7 @@ const Values = () => {
           </p>
         </div>
       </div>
-      <Link to={"/about"} className=" mt-8 rounded-2xl bg-[#ffcc99] hover:bg-[#ffbc78] hover:scale-105 active:scale-95 duration-150 p-4 text-gray-900">
+      <Link to={"/about"} className=" mt-8 rounded-2xl bg-[#ffcc99] hover:bg-[#ffbc78] drop-shadow-lg hover:drop-shadow-xl hover:scale-105 active:scale-95 duration-150 p-4 text-gray-900">
         Read More
       </Link>
     </section>
