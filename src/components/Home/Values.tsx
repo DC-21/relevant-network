@@ -65,7 +65,9 @@ const Values = () => {
           </p>
         </div>
       </div>
-      <Link to={"/about"}></Link>
+      <Link to={"/about"} className=" mt-8 rounded-2xl bg-[#ffcc99] hover:bg-[#ffbc78] hover:scale-105 active:scale-95 duration-150 p-4 text-gray-900">
+        Read More
+      </Link>
     </section>
   );
 };
