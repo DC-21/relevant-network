@@ -1,18 +1,16 @@
 const Values = () => {
   return (
-    <section className="min-h-screen w-full max-w-7xl rounded text-black justify-center items-center">
-      <div className="grid md:grid-cols-4 grid-cols-1 justify-center gap-4">
-        <div className="py-20 bg-white shadow shadow-[#353935] rounded">
+    <section className="min-h-screen w-full flex flex-col px-4 md:px-12">
+      <h1 className="text-center text-4xl font-bold">WE CAN CHANGE THE WORLD</h1>
+      <div className="grid md:grid-cols-4 grid-cols-1 w-full items-center justify-center gap-4">
+        <div className="">
           <p>Education Support</p>
         </div>
-        <div className="py-20 bg-white shadow shadow-[#353935]">
+        <div className="">
           <p>Skills Training</p>
         </div>
-        <div className="py-20 bg-white shadow shadow-[#353935]">
+        <div className="">
           <p>Food Security</p>
-        </div>
-        <div className="py-20 bg-white shadow shadow-[#353935]">
-          <p>Orphans</p>
         </div>
       </div>
     </section>

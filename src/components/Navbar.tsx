@@ -7,7 +7,7 @@ const NavBar = () => {
   const [open, setOpen] = useState<boolean>(false);
   return (
     <nav
-      className={`flex items-center max-w-7xl font-bold shadow-lg border-b top-0 z-50  backdrop-blur w-full justify-between px-2 md:px-6 py-7`}
+      className={`flex items-center max-w-7xl font-bold shadow-lg border-b top-0 z-50 backdrop-blur w-full justify-between px-4 md:px-12 py-6`}
     >
       <Link to={"/"} className="font-bold flex items-center gap-2 group">
        <img src={logo} alt="logo" className="md:h-8 h-6 object-cover group-hover:rotate-45 duration-100" />
