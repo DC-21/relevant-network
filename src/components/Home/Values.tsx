@@ -13,27 +13,32 @@ const Values = () => {
         <div className=" h-3 bg-[#ff6699] w-8"></div>
         <div className=" h-2 bg-gray-400 w-8"></div>
       </div>
-      <div className="grid lg:grid-cols-5 md:grid-cols-3 mt-4 w-full items-center justify-center gap-4">
-        <div className="flex items-center text-center justify-center p-4 border shadow-md">
+      <div className="grid lg:grid-cols-5 text-sm md:text-base md:grid-cols-3 mt-4 w-full items-center justify-center gap-4">
+        <div className="flex items-center flex-col text-center justify-center p-4 border shadow-md">
+          <span>1</span>
           <p>
             Establish a robust social enterprise in agriculture, emphasizing
             high-quality crops and advanced breeding techniques for climate
             adaptation.
           </p>
         </div>
-        <div className="flex items-center justify-center p-4 border shadow-md">
+        <div className="flex items-center flex-col justify-center p-4 border shadow-md">
+          <span>2</span>
           <p>
-            Increase women's wealth creation participation by providing
-            opportunities for decent employment.
+            Increase women's active and inclusive wealth creation participation
+            by providing opportunities for decent employment and skill
+            development.
           </p>
         </div>
-        <div className="flex items-center text-center justify-center p-4 border shadow-md">
+        <div className="flex items-center flex-col text-center justify-center p-4 border shadow-md">
+          <span>3</span>
           <p>
-            Support women's education through adult literacy, vocational skills
-            training, and primary education.
+            Support women's education through comprehensive adult literacy,
+            vocational skills training, and accessible primary education.
           </p>
         </div>
-        <div className="flex items-center text-center justify-center p-4 border shadow-md">
+        <div className="flex items-center flex-col text-center justify-center p-4 border shadow-md">
+          <span>4</span>
           <p>
             Establish a robust social enterprise in agriculture, emphasizing
             high-quality crops and advanced breeding techniques for climate
@@ -41,6 +46,7 @@ const Values = () => {
           </p>
         </div>
         <div className="flex items-center text-center justify-center p-4 border shadow-md">
+          <span>5</span>
           <p>
             Promote gender equity through programs addressing social justice,
             gender-based violence, and encouraging women's active participation.
