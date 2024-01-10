@@ -1,11 +1,11 @@
 import Hero from "../components/Home/Hero";
-import Values from "../components/Home/Values";
+import Objectives from "../components/Home/Objectives";
 
 const Home = () => {
   return (
     <>
       <Hero />
-      <Values />
+      <Objectives />
     </>
   );
 };
