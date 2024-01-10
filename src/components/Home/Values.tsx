@@ -1,7 +1,7 @@
 const Values = () => {
   return (
     <section className="min-h-screen gap-2 w-full text-center flex flex-col bg-[#ffcc99] bg-opacity-30 px-4 md:px-12 py-16">
-      <h1 className="text-center text-4xl font-bold">
+      <h1 className="text-center text-4xl text-gray-700 font-bold">
         WE <span className="text-[#ff6699]">CAN</span> CHANGE THE WORLD
       </h1>
       <h2 className=" text-2xl underline">Vision</h2>
