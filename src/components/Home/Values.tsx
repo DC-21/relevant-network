@@ -7,9 +7,9 @@ const Values = () => {
       <h2 className=" text-2xl underline">Vision</h2>
       <p>The vision is to improve peoples&#39; lives one at time.</p>
       <div className=" flex items-center justify-center gap-2 w-full">
-        <div className=" h-2 bg-gray-500 w-8"></div>
+        <div className=" h-2 bg-gray-400 w-8"></div>
         <div className=" h-2 bg-[#ff6699] w-8"></div>
-        <div className=" h-2 bg-gray-500 w-8"></div>
+        <div className=" h-2 bg-gray-400 w-8"></div>
       </div>
       <div className="grid md:grid-cols-4 mt-4 grid-cols-1 w-full items-center justify-center gap-4">
         <div className="">
