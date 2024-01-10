@@ -23,6 +23,15 @@ const Values = () => {
           <div className=" h-1 bg-gray-400 w-8"></div>
           <div className=" h-1 bg-gray-400 w-8"></div>
         </div>
+        <p className=" underline text-xl">Core values</p>
+        <ul>
+          <li>Creativity</li>
+          <li>Empowermen</li>
+          <li>Excellence</li>
+          <li>Integrity</li>
+          <li>Innovation</li>
+          <li>Sustainability</li>
+        </ul>
         <button className=" rounded-2xl bg-[#ff6600] hover:bg-[#ff8000] text-white hover:scale-105 active:scale-95 duration-150 p-4">
           Join Us Now
         </button>
