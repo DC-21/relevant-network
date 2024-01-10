@@ -15,7 +15,7 @@ const Values = () => {
       </div>
       <div className="grid lg:grid-cols-5 text-sm md:text-base md:grid-cols-3 mt-4 w-full items-center justify-center gap-4">
         <div className="flex items-center flex-col text-center justify-center p-4 border shadow-md">
-          <span>1</span>
+          <span className=" px-4 py-2 rounded-full border-4">1</span>
           <p>
             Establish a robust social enterprise in agriculture, emphasizing
             high-quality crops and advanced breeding techniques for climate
@@ -23,7 +23,7 @@ const Values = () => {
           </p>
         </div>
         <div className="flex items-center flex-col justify-center p-4 border shadow-md">
-          <span>2</span>
+          <span className=" px-4 py-2 rounded-full border-4">2</span>
           <p>
             Increase women's active and inclusive wealth creation participation
             by providing opportunities for decent employment and skill
@@ -31,14 +31,14 @@ const Values = () => {
           </p>
         </div>
         <div className="flex items-center flex-col text-center justify-center p-4 border shadow-md">
-          <span>3</span>
+          <span className=" px-4 py-2 rounded-full border-4">3</span>
           <p>
             Support women's education through comprehensive adult literacy,
             vocational skills training, and accessible primary education.
           </p>
         </div>
         <div className="flex items-center flex-col text-center justify-center p-4 border shadow-md">
-          <span>4</span>
+          <span className=" px-4 py-2 rounded-full border-4">4</span>
           <p>
             Establish a robust social enterprise in agriculture, emphasizing
             high-quality crops and advanced breeding techniques for climate
@@ -46,7 +46,7 @@ const Values = () => {
           </p>
         </div>
         <div className="flex items-center flex-col text-center justify-center p-4 border shadow-md">
-          <span>5</span>
+          <span className=" px-4 py-2 rounded-full border-4">5</span>
           <p>
             Promote gender equity through programs addressing social justice,
             gender-based violence, and encouraging women's active participation.
