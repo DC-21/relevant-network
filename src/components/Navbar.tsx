@@ -8,9 +8,9 @@ const NavBar = () => {
     <nav
       className={`flex items-center max-w-7xl font-bold shadow-lg  md:rounded rounded-none top-0 z-50 bg-opacity-[98%] backdrop-blur w-full justify-between px-2 md:px-6 py-7`}
     >
-      <Link to={"/"} className="md:text-[20px] xl font-bold">
+      <Link to={"/"} className="font-bold">
        <img src={logo} alt="logo" className="md:h-8 h-6 object-cover" />
-       <span></span>
+       <span>RELEVANT NETWORK</span>
       </Link>
       <li className="list-none gap-4 md:flex hidden">
         <Link to={"/"}>HOME</Link>
