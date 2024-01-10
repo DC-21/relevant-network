@@ -7,7 +7,7 @@ const Home = () => {
     <>
       <Hero />
       <Objectives />
-      <Values/>
+      <Values />
     </>
   );
 };
