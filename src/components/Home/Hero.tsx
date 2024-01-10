@@ -5,8 +5,8 @@ const Hero = () => {
       style={{ backgroundImage: `url(${bg})` }}
       className="w-full bg-cover bg-center bg-no-repeat"
     >
-      <div className="min-h-screen bg-[#ffcc99] bg-opacity-60 flex flex-col items-center justify-center text-center backdrop-blur-[2px]">
-        <h1 className="">How We Help Women</h1>
+      <div className="min-h-screen bg-[#ffcc99] bg-opacity-60 flex gap-4 flex-col items-center justify-center text-center backdrop-blur-[2px]">
+        <h1 className=" text-white font-bold text-5xl">How We Help Women</h1>
         <p className="">
           To support women thereby transforming generations; enabling them to
           live full lives. Through creating a platform; for them to access
