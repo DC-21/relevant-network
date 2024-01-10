@@ -23,7 +23,7 @@ const Membership = () => {
       </p>
       <div className=" grid md:grid-cols-3 w-full gap-2 mt-4">
         {knowledge.map((item, i) => (
-          <div key={i} className=" flex items-center gap-2">
+          <div key={i} className=" flex items-center gap-2 rounded-full p-2 shadow-lg bg-white">
             <svg
               fill="none"
               stroke="currentColor"
