@@ -11,9 +11,9 @@ const Objectives = () => {
         To improve peoples&#39; lives one at time.
       </p>
       <div className=" flex items-center justify-center gap-2 w-full my-2">
-        <div className=" h-2 bg-gray-400 w-8"></div>
+        <div className=" h-1 bg-gray-400 w-8"></div>
         <div className=" h-3 bg-[#ff6699] w-8"></div>
-        <div className=" h-2 bg-gray-400 w-8"></div>
+        <div className=" h-1 bg-gray-400 w-8"></div>
       </div>
       <div className="grid lg:grid-cols-5 text-sm md:text-base md:grid-cols-3 mt-4 w-full items-center justify-center gap-6">
         <div className="flex items-center flex-col text-center justify-center md:p-4 shadow-md rounded-xl hover:shadow-xl py-12 duration-200 bg-[#ffcc99] bg-opacity-5">
