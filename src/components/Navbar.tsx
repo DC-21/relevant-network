@@ -7,7 +7,7 @@ const NavBar = () => {
   return (
     <nav
       style={{ backgroundColor: colors.peach }}
-      className={`flex items-center max-w-7xl font-bold text-white  md:rounded rounded-none top-0 z-50 bg-opacity-[98%] backdrop-blur w-full justify-between px-2 md:px-6 py-7`}
+      className={`flex items-center max-w-7xl font-bold text-white shadow-lg  md:rounded rounded-none top-0 z-50 bg-opacity-[98%] backdrop-blur w-full justify-between px-2 md:px-6 py-7`}
     >
       <Link to={"/"} className="md:text-[20px] xl font-bold">
         RELEVANT NETWORK
