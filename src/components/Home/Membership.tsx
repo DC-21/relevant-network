@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import { colors } from "../../constants/colors";
 
 const Membership = () => {
@@ -25,7 +26,10 @@ const Membership = () => {
       </p>
       <div className=" grid md:grid-cols-3 w-full gap-4 mt-4">
         {knowledge.map((item, i) => (
-          <div key={i} className=" flex items-center gap-2 hover:shadow-xl duration-150 rounded-full p-2 shadow-lg bg-white">
+          <div
+            key={i}
+            className=" flex items-center gap-2 hover:shadow-xl duration-150 rounded-full p-2 shadow-lg bg-white"
+          >
             <svg
               fill="none"
               color={colors.pink}
@@ -44,6 +48,12 @@ const Membership = () => {
           </div>
         ))}
       </div>
+      <Link
+        to={"/about"}
+        className=" mt-8 rounded-2xl bg-[#ffcc99] hover:bg-[#ffbc78] drop-shadow-lg hover:drop-shadow-xl hover:scale-105 active:scale-95 duration-150 p-4 text-gray-900"
+      >
+        Join Us Now
+      </Link>
     </section>
   );
 };
