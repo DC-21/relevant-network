@@ -1,6 +1,6 @@
 const Values = () => {
   return (
-    <section className="h-screen w-full max-w-7xl rounded text-black justify-center items-center">
+    <section className="min-h-screen w-full max-w-7xl rounded text-black justify-center items-center">
       <div className="grid md:grid-cols-4 grid-cols-1 justify-center gap-4">
         <div className="py-20 bg-white shadow shadow-[#353935] rounded">
           <p>Education Support</p>
