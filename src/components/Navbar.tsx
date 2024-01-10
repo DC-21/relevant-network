@@ -1,16 +1,16 @@
 import { useState } from "react";
 import { Link } from "react-router-dom";
-import { colors } from "../constants/colors";
+import logo from '../assets/logo.png'
 
 const NavBar = () => {
   const [open, setOpen] = useState<boolean>(false);
   return (
     <nav
-      style={{ backgroundColor: colors.peach }}
-      className={`flex items-center max-w-7xl font-bold text-white shadow-lg  md:rounded rounded-none top-0 z-50 bg-opacity-[98%] backdrop-blur w-full justify-between px-2 md:px-6 py-7`}
+      className={`flex items-center max-w-7xl font-bold shadow-lg  md:rounded rounded-none top-0 z-50 bg-opacity-[98%] backdrop-blur w-full justify-between px-2 md:px-6 py-7`}
     >
       <Link to={"/"} className="md:text-[20px] xl font-bold">
-        RELEVANT NETWORK
+       <img src={logo} alt="logo" className=" h-6 object-cover" />
+       <span></span>
       </Link>
       <li className="list-none gap-4 md:flex hidden">
         <Link to={"/"}>HOME</Link>

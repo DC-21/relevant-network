@@ -15,8 +15,8 @@ const Hero = () => {
           sanitation and education services.
         </p>
         <div className="flex gap-4 items-center">
-          <button className="">Donate Now</button>
-          <button className="">Disover +</button>
+          <button className=" rounded-xl bg-[#ff6699] p-4">Donate Now</button>
+          <button className=" rounded-xl bg-[#ff6600] p-4">Disover +</button>
         </div>
       </div>
     </header>
