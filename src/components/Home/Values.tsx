@@ -12,13 +12,13 @@ const Values = () => {
         <div className=" h-2 bg-gray-400 w-8"></div>
       </div>
       <div className="grid md:grid-cols-4 mt-4 grid-cols-1 w-full items-center justify-center gap-4">
-        <div className="">
+        <div className="flex items-center justify-center p-4 border shadow-md">
           <p>Education Support</p>
         </div>
-        <div className="">
+        <div className="flex items-center justify-center p-4 border shadow-md">
           <p>Skills Training</p>
         </div>
-        <div className="">
+        <div className="flex items-center justify-center p-4 border shadow-md">
           <p>Food Security</p>
         </div>
       </div>
