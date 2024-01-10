@@ -1,7 +1,7 @@
 import bg from "../../assets/her03.jpg";
 const Values = () => {
   return (
-    <div className="min-h-screen px-4 md:px-12 py-16 gap-4 items-center justify-center grid md:grid-cols-2 w-full">
+    <div className="min-h-screen px-4 md:px-12 gap-4 items-center justify-center grid md:grid-cols-2 w-full">
       <div>
         <img
           src={bg}
@@ -23,7 +23,7 @@ const Values = () => {
           <div className=" h-1 bg-gray-400 w-8"></div>
           <div className=" h-1 bg-gray-400 w-8"></div>
         </div>
-        <p className=" underline text-xl">Core values</p>
+        <p className=" underline text-xl my-4">Core values</p>
         <ul className=" grid grid-cols-2 gap-4 md:text-xl w-full">
           <li className=" p-2 rounded-full flex items-center border shadow-sm gap-2">
             <span>
@@ -110,7 +110,7 @@ const Values = () => {
             Sustainability
           </li>
         </ul>
-        <button className=" rounded-2xl my-2 bg-[#ff6600] hover:bg-[#ff8000] text-white hover:scale-105 active:scale-95 duration-150 p-4">
+        <button className=" rounded-2xl my-2 md:w-fit w-full bg-[#ff6600] hover:bg-[#ff8000] text-white hover:scale-105 active:scale-95 duration-150 p-4">
           Join Us Now
         </button>
       </div>
