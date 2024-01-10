@@ -1,10 +1,14 @@
 import { useState } from "react";
 import { Link } from "react-router-dom";
+import { colors } from "../constants/colors";
 
 const NavBar = () => {
   const [open, setOpen] = useState<boolean>(false);
   return (
-    <nav className="flex items-center max-w-7xl font-bold text-white  md:rounded rounded-none bg-[#353935] top-0 z-50 bg-opacity-[98%] backdrop-blur w-full justify-between px-2 md:px-6 py-7">
+    <nav
+      style={{ backgroundColor: colors.peach }}
+      className={`flex items-center max-w-7xl font-bold text-white  md:rounded rounded-none top-0 z-50 bg-opacity-[98%] backdrop-blur w-full justify-between px-2 md:px-6 py-7`}
+    >
       <Link to={"/"} className="md:text-[20px] xl font-bold">
         RELEVANT NETWORK
       </Link>
