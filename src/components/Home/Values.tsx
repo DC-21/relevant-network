@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 const Values = () => {
   return (
     <section className="min-h-screen gap-2 w-full text-center flex flex-col bg-[#ffcc99] bg-opacity-30 items-center justify-center px-4 md:px-12 py-16">
@@ -63,6 +65,7 @@ const Values = () => {
           </p>
         </div>
       </div>
+      <Link to={"/about"}></Link>
     </section>
   );
 };
