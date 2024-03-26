@@ -1,7 +1,5 @@
 import { useState } from "react";
 import { Link } from "react-router-dom";
-import logo from '../assets/logo.png'
-import { colors } from "../constants/colors";
 
 const NavBar = () => {
   const [open, setOpen] = useState<boolean>(false);
@@ -10,15 +8,39 @@ const NavBar = () => {
       className={`flex items-center max-w-7xl font-bold shadow-lg border-b top-0 z-50 backdrop-blur w-full justify-between px-4 md:px-12 py-6`}
     >
       <Link to={"/"} className="font-bold flex items-center gap-2 group">
-       <img src={logo} alt="logo" className="md:h-8 h-6 object-cover group-hover:rotate-45 duration-100" />
-       <span style={{color:colors.orange}} className=" group-hover:text-gray-600">RELEVANT NETWORK</span>
+        Logo
       </Link>
       <li className="list-none gap-4 md:flex hidden">
-        <Link to={"/"} className=" hover:text-[#ff6600] text-gray-700 duration-200">HOME</Link>
-        <Link to={"/about"} className=" hover:text-[#ff6600] text-gray-700 duration-200">ABOUT</Link>
-        <Link to={"/services"} className=" hover:text-[#ff6600] text-gray-700 duration-200">SERVICES</Link>
-        <Link to={"/blog"} className=" hover:text-[#ff6600] text-gray-700 duration-200">BLOG</Link>
-        <Link to={"/services"} className=" hover:text-[#ff6600] text-gray-700 duration-200">CONTACT</Link>
+        <Link
+          to={"/"}
+          className=" hover:text-[#ff6600] text-gray-700 duration-200"
+        >
+          HOME
+        </Link>
+        <Link
+          to={"/about"}
+          className=" hover:text-[#ff6600] text-gray-700 duration-200"
+        >
+          ABOUT
+        </Link>
+        <Link
+          to={"/services"}
+          className=" hover:text-[#ff6600] text-gray-700 duration-200"
+        >
+          SERVICES
+        </Link>
+        <Link
+          to={"/blog"}
+          className=" hover:text-[#ff6600] text-gray-700 duration-200"
+        >
+          BLOG
+        </Link>
+        <Link
+          to={"/services"}
+          className=" hover:text-[#ff6600] text-gray-700 duration-200"
+        >
+          CONTACT
+        </Link>
       </li>
       <button
         onClick={() => setOpen(!open)}
@@ -43,19 +65,44 @@ const NavBar = () => {
         <div className=" text-2xl flex min-h-screen flex-col h-full w-full gap-4 items-center list-none">
           <ul className=" text-center flex flex-col mt-20 gap-2">
             <li>
-              <Link to={"/"} className=" hover:text-[#ff6600] text-gray-700 duration-200">HOME</Link>
+              <Link
+                to={"/"}
+                className=" hover:text-[#ff6600] text-gray-700 duration-200"
+              >
+                HOME
+              </Link>
             </li>
             <li>
-              <Link to={"/about"} className=" hover:text-[#ff6600] text-gray-700 duration-200">ABOUT</Link>
+              <Link
+                to={"/about"}
+                className=" hover:text-[#ff6600] text-gray-700 duration-200"
+              >
+                ABOUT
+              </Link>
             </li>
             <li>
-              <Link to={"/services"} className=" hover:text-[#ff6600] text-gray-700 duration-200">SERVICES</Link>
+              <Link
+                to={"/services"}
+                className=" hover:text-[#ff6600] text-gray-700 duration-200"
+              >
+                SERVICES
+              </Link>
             </li>
             <li>
-              <Link to={"/blog"} className=" hover:text-[#ff6600] text-gray-700 duration-200">BLOG</Link>
+              <Link
+                to={"/blog"}
+                className=" hover:text-[#ff6600] text-gray-700 duration-200"
+              >
+                BLOG
+              </Link>
             </li>
             <li>
-              <Link to={"/services"} className=" hover:text-[#ff6600] text-gray-700 duration-200">CONTACTS</Link>
+              <Link
+                to={"/services"}
+                className=" hover:text-[#ff6600] text-gray-700 duration-200"
+              >
+                CONTACTS
+              </Link>
             </li>
           </ul>
         </div>
