@@ -8,7 +8,7 @@ const NavBar = () => {
       className={`flex items-center max-w-7xl font-bold shadow-lg border-b top-0 z-50 backdrop-blur w-full justify-between px-4 md:px-12 py-6`}
     >
       <Link to={"/"} className="font-bold flex items-center gap-2 group">
-        Logo
+        Wheels Of Hope
       </Link>
       <li className="list-none gap-4 md:flex hidden">
         <Link
